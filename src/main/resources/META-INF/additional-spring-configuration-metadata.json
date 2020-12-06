@@ -1,0 +1,36 @@
+{
+  "properties": [
+    {
+      "name": "shorty.salt",
+      "type": "java.lang.String",
+      "description": "Hashids salt."
+    },
+    {
+      "name": "shorty.base-url",
+      "type": "java.lang.String",
+      "description": "Shorty claims base URL."
+    },
+    {
+      "name": "shorty.claim.expired-page",
+      "type": "java.lang.String",
+      "description": "Expired claims page."
+    },
+    {
+      "name": "shorty.claim.unknown-page",
+      "type": "java.lang.String",
+      "description": "Unknown claims page."
+    },
+    {
+      "name": "shorty.claim.default-validity-duration",
+      "type": "java.lang.Integer",
+      "description": "Default claim's validity duration in days.",
+      "defaultValue": 30
+    },
+    {
+      "name": "shorty.claim.max-validity-duration",
+      "type": "java.lang.Integer",
+      "description": "Maximum claim's validity duration.",
+      "defaultValue": 365
+    }
+  ]
+}
